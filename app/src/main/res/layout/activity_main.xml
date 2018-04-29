@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context="com.example.android.smallbusinessapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/jumbotron"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/brisketsandwich" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/large">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="@dimen/medium"
+                android:paddingTop="@dimen/medium"
+                android:text="@string/bizname"
+                android:textColor="@color/basicBlack"
+                android:textSize="@dimen/largeText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="@dimen/medium"
+                android:paddingTop="@dimen/medium"
+                android:text="@string/about"
+                android:textColor="@color/basicBlack"
+                android:textSize="@dimen/mediumText"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:autoLink="map"
+                android:paddingBottom="@dimen/medium"
+                android:text="@string/address"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="@dimen/mediumText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:autoLink="web"
+                android:paddingBottom="@dimen/medium"
+                android:text="@string/url"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="@dimen/mediumText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:autoLink="phone"
+                android:paddingBottom="@dimen/medium"
+                android:text="@string/phone"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="@dimen/mediumText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

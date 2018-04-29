@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SmallBusinessApp</string>
+    <string name="bizname">Butch\'s Bistro &amp; BBQ</string>
+    <string name="address">13118 Sorrento Road&#10;Pensacola, FL 32507</string>
+    <string name="phone">(850) 492&#8211;0007</string>
+    <string name="url">butchsbistro.com</string>
+    <string name="about">BBQ&#44; Seafood&#44; Burgers&#44; and more!</string>
+</resources>
